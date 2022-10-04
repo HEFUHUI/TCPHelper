@@ -4,10 +4,6 @@ import (
 	"net"
 )
 
-func init() {
-
-}
-
 func Run(port int) {
 	// port 优雅转 string
 	portStr := ":" + string(rune(port))
